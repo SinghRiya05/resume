@@ -1,0 +1,23 @@
+div{
+    text-align: center;
+    line-height: 25px;
+    height: 200px;
+    width: 500px;
+    border: 2px solid green;
+    border-bottom-color: pink;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(78, 11, 78);
+    color: beige;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 50%;
+}
+ 

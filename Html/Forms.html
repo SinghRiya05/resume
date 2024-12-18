@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/action">
+        <div><label for="Username">Enter your Username :</label>
+            <input type="text" id="Username" placeholder="Username" name="Username"></div>
+       <br>
+       <div><label for="password">Enter your password</label>
+        <input type="password" id="password" placeholder="password" name ="password"></div>
+        <button>submit</button>
+        <button type="button">do something</button>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <br>
+        <input type="button" value="click me">
+        <input type="submit">
+    <input type="checkbox" name="age" id="age" checked>
+    <label for="age" >i am 18+</label>
+    <br>
+    <div>
+        <label>choose ur favourite fruit</label><br>
+        <label for="apple">apple</label>
+    <input type="checkbox" id="apple" name="apple" checked>
+    <label for="mango">mango</label>
+    <input type="checkbox" id="mango" name="mango" >
+    </div>
+    <fieldset><legend>Choose ur fruit</legend>
+   <div>
+    <input type="radio" name="Fruit" id="apple" value="apple">
+    <label for="apple">Apple</label>
+    <input type="radio" name="Fruit" id="mango" value="mango">
+    <label for="mango">mango</label>
+    <input type="radio" name="Fruit" id="orange" value="orange">
+    <label for="orange">orange</label>
+   </div></fieldset>
+   <div>
+    <label for="pet-select">Choose a pet</label>
+    <select name="pets" id="pet-select"><option value="">__please choose an option__</option>
+    <option value="dog">dog</option>
+    <option value="cat">cat</option>
+    <option value="cow">cow</option>
+    <option value="deer">deer</option>
+    </select>
+   </div>
+<div>
+    <label for="volume">Volume</label>
+    <input type="range" min="0" max="100" name="vol" id="volume" step="5">
+</div>
+<div>
+    <label for="fedback">please provide youer valuable feedback</label>
+    <textarea name="fd" id="feedback"></textarea>
+</div>
+    </form>
+        <hr>
+        <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search on youtube" name="search_query">
+        <button>search</button></form>
+        <form action="https://www.google.co.in/search">
+        <input type="text" placeholder="search on Google" name="q">
+        <button>search</button
+        </form>
+</body>
+</html>

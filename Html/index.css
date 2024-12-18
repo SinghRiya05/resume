@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a{
+   text-align: center;
+   line-height: 37px;
+   background-color: #bccbde;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    background-color:rgb(149, 178, 225)
+}
+section{
+   line-height: 32px;
+
+}
+footer{
+    line-height: 25px;
+    margin: 0;
+    text-align:unset;
+}
+.section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    
+}
+
+body{
+    background-color:#acb7ae ;
+}
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.hob{
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.hob ul li{
+    background-color: antiquewhite;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
